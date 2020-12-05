@@ -7,7 +7,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	title := "Ich habe dieses Tutorial endlich abgeschlossen...oder"
+	title := "Das Tutorial ist fertig"
 
 	from := ""
 	if r.URL != nil {
